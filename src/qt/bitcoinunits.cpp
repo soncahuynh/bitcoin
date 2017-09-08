@@ -51,9 +51,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MARSC: return QString("Bitcoins");
-    case mMARSC: return QString("Milli-Bitcoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uMARSC: return QString("Micro-Bitcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case MARSC: return QString("MarsCoins");
+    case mMARSC: return QString("Milli-MarsCoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uMARSC: return QString("Micro-MarsCoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
