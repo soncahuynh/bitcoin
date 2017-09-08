@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2016 The Marscoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -188,7 +188,7 @@ CScript _createmultisig_redeemScript(CWallet * const pwallet, const UniValue& pa
     {
         const std::string& ks = keys[i].get_str();
 #ifdef ENABLE_WALLET
-        // Case 1: Bitcoin address and we have full public key:
+        // Case 1: Marscoin address and we have full public key:
         CTxDestination dest = DecodeDestination(ks);
         if (pwallet && IsValidDestination(dest)) {
             const CKeyID *keyID = boost::get<CKeyID>(&dest);
