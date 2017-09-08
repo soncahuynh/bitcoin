@@ -56,7 +56,7 @@ Patch0:		bitcoin-0.12.0-libressl.patch
 %description
 Marscoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of bitcoins is carried out collectively by the network.
+issuing of MarsCoins is carried out collectively by the network.
 
 %if %{_buildqt}
 %package core
@@ -81,7 +81,7 @@ BuildRequires:	%{_bindir}/convert
 %description core
 Marscoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of bitcoins is carried out collectively by the network.
+issuing of MarsCoins is carried out collectively by the network.
 
 This package contains the Qt based graphical client and node. If you are looking
 to run a Marscoin wallet, this is probably the package you want.
